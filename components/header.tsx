@@ -14,23 +14,23 @@ export default function Header() {
           <Link  className="w-28 dark:hidden" href="/">
             <Image
               itemProp="image"
-              src={process.env.NEXT_PUBLIC_URL+'/assets/images/logo-dark.svg'}
+              src={'/assets/images/logo-dark.png'}
               alt="logo"
               width="100"
-              height="58"
+              height="50"
               placeholder="blur"
-              blurDataURL={process.env.NEXT_PUBLIC_URL+'/assets/images/logo-dark.svg'}
+              blurDataURL={'/assets/images/logo-dark.png'}
             />
           </Link>
           <Link  className="hidden w-28 dark:block" href="/">
             <Image
                 itemProp="image"
-                src={process.env.NEXT_PUBLIC_URL+'/assets/images/logo-dark.svg'}
+                src={'/assets/images/logo-light.png'}
                 alt="logo"
                 width="100"
-                height="58"
+                height="50"
                 placeholder="blur"
-                blurDataURL={process.env.NEXT_PUBLIC_URL+'/assets/images/logo-dark.svg'}
+                blurDataURL={'/assets/images/logo-light.png'}
               />
           </Link >
           <button aria-label="Toggle Menu" className="ml-auto rounded-md px-2 py-1 text-gray-500 focus:text-blue-500 focus:outline-none dark:text-gray-300 md:hidden " id="headlessui-disclosure-button-:r0:" type="button" aria-expanded="false" data-headlessui-state>
